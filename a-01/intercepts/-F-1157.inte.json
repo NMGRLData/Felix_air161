@@ -1,0 +1,152 @@
+{
+    "Ar36": {
+        "error": 0.006093852171558915, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "Parabolic", 
+        "value": 1.216746809451506
+    }, 
+    "Ar36H": {
+        "error": 0.0007690823938863638, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "Parabolic", 
+        "value": 0.02735488888503082
+    }, 
+    "Ar37": {
+        "error": 0.00012342204405027516, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.001211423008654263
+    }, 
+    "Ar37H": {
+        "error": 0.00107048627434915, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.11701090549083631
+    }, 
+    "Ar38": {
+        "error": 0.0016134711327828177, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.3755771205995393
+    }, 
+    "Ar38H": {
+        "error": 0.0007625983773351293, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.09761751972543437
+    }, 
+    "Ar39": {
+        "error": 0.000767450545518018, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "Parabolic", 
+        "value": 0.0015064014329936844
+    }, 
+    "Ar39H": {
+        "error": 0.002003184041789107, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "Parabolic", 
+        "value": 0.15431610013429625
+    }, 
+    "Ar40": {
+        "error": 0.1297428614937901, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "Parabolic", 
+        "value": 586.1984045939721
+    }, 
+    "Ar40H": {
+        "error": 0.0016315150657174697, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "Parabolic", 
+        "value": 0.14693017017773735
+    }, 
+    "HCl": {
+        "error": 0.005051831054784846, 
+        "filter_outliers_dict": {
+            "filter_outliers": true, 
+            "iterations": 2, 
+            "std_devs": 2
+        }, 
+        "fit": "Parabolic", 
+        "value": 0.3426012888191057
+    }, 
+    "Iso36.8624": {
+        "error": 0.0, 
+        "filter_outliers_dict": {
+            "filter_outliers": false, 
+            "iterations": 1, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.0285730561223885
+    }, 
+    "Iso37.8624": {
+        "error": 0.0, 
+        "filter_outliers_dict": {
+            "filter_outliers": false, 
+            "iterations": 1, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.000152795465343216
+    }, 
+    "Iso38.8624": {
+        "error": 0.0, 
+        "filter_outliers_dict": {
+            "filter_outliers": false, 
+            "iterations": 1, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.000611181966289207
+    }, 
+    "Iso39.8624": {
+        "error": 0.0, 
+        "filter_outliers_dict": {
+            "filter_outliers": false, 
+            "iterations": 1, 
+            "std_devs": 2
+        }, 
+        "fit": "linear", 
+        "value": 0.0
+    }
+}
