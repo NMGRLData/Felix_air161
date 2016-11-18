@@ -1,0 +1,114 @@
+{
+    "acquisition_software": "Pychron16.7(Exp0.1,DVC0.1)", 
+    "aliquot": 1155, 
+    "analysis_type": "air", 
+    "analyst_name": "", 
+    "comment": "", 
+    "commit": "339e83eb916e7d56e98f3337041eb5894c5ada39", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": -530729609918142714, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron16.7(DVC0.1)", 
+    "detectors": {
+        "AX(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2(CDD)": {
+            "deflection": 3250.0, 
+            "gain": 0
+        }, 
+        "L1(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_air_x1.py", 
+    "identifier": "a-01-F", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 15, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar36H": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1(CDD)"
+        }, 
+        "Ar37H": {
+            "detector": "L1(CDD)"
+        }, 
+        "Ar38": {
+            "detector": "AX(CDD)"
+        }, 
+        "Ar38H": {
+            "detector": "AX(CDD)"
+        }, 
+        "Ar39": {
+            "detector": "H1(CDD)"
+        }, 
+        "Ar39H": {
+            "detector": "H1(CDD)"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }, 
+        "Ar40H": {
+            "detector": "H2(CDD)"
+        }, 
+        "HCl": {
+            "detector": "L2(CDD)"
+        }, 
+        "Iso36.8624": {
+            "detector": "L1(CDD)"
+        }, 
+        "Iso37.8624": {
+            "detector": "AX(CDD)"
+        }, 
+        "Iso38.8624": {
+            "detector": "H1(CDD)"
+        }, 
+        "Iso39.8624": {
+            "detector": "H2(CDD)"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "felix", 
+    "material": "", 
+    "measurement": "felix_peak_hop_hydrocarbon.py", 
+    "project": "", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Felix_air161", 
+    "sample": "air", 
+    "spec_sha": "c6ede04615c8d08a7fcc1af91b8de0dfc4513301", 
+    "timestamp": "2016-11-18T15:06:10.292372", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "393d3819-0fdc-48ea-acff-ab41bd8b6ce9"
+}
