@@ -1,0 +1,167 @@
+{
+    "Ar36": {
+        "error": 0.0004112563468964936, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.002821985221672243
+    }, 
+    "Ar36H": {
+        "error": 0.001341095946493179, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.045187780979292894
+    }, 
+    "Ar37": {
+        "error": 0.0001595977154800839, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.0028311787645240974
+    }, 
+    "Ar37H": {
+        "error": 0.001500599695463925, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.08531822132291655
+    }, 
+    "Ar38": {
+        "error": 0.00012436927189298855, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.0005320669330891932
+    }, 
+    "Ar38H": {
+        "error": 0.0013407512251053496, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.07315857090833591
+    }, 
+    "Ar39": {
+        "error": 0.00048652695505483636, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.002067684458918539
+    }, 
+    "Ar39H": {
+        "error": 0.004308938527409364, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.17185655296356328
+    }, 
+    "Ar40": {
+        "error": 0.026395868798313238, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.646791927006662
+    }, 
+    "Ar40H": {
+        "error": 4.919288165438235e-05, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 9.025455240651569e-05
+    }, 
+    "HCl": {
+        "error": 0.0001857743188237731, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.0016417686334675012
+    }, 
+    "Iso36.8624": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.041114909074143384
+    }, 
+    "Iso37.8624": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.0
+    }, 
+    "Iso39.8624": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.0
+    }, 
+    "PHHCbs": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-455"
+            }
+        ], 
+        "value": 0.0
+    }
+}
