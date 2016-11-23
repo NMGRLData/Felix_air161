@@ -1,0 +1,101 @@
+{
+    "Ar36": {
+        "error": 0.00045349070907955844, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": 0.0008941676036900794
+    }, 
+    "Ar36H": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": -3.0452112308362045e-05
+    }, 
+    "Ar37": {
+        "error": 0.021271228270451716, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": 0.06273833468892466
+    }, 
+    "Ar37H": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": -0.13651174666320856
+    }, 
+    "Ar38": {
+        "error": 0.00011011168627019508, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": 0.000996497487693667
+    }, 
+    "Ar39": {
+        "error": 0.048176395463124376, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": 0.14165676174279204
+    }, 
+    "Ar40": {
+        "error": 0.04107379223305106, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": 0.3584200209473334
+    }, 
+    "Iso37.8624": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": 0.0
+    }, 
+    "PHHCbs": {
+        "error": 0.0, 
+        "fit": "previous", 
+        "references": [
+            {
+                "exclude": false, 
+                "record_id": "ba-01-F-457"
+            }
+        ], 
+        "value": -0.14142370762319179
+    }
+}
