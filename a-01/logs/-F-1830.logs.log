@@ -1,0 +1,3309 @@
+do run
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=624.242112, duration=0.000245094299316
+script duration name:analysis400_120 seconds:624.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.40802764893e-05
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.60283660889e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.0001380443573
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000102043151855
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000124931335449
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=7.9870223999e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000123977661133
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+executed snippet estimated_duration=174.0, duration=0.00918412208557
+script duration name:air_x2 seconds:174.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.00019907951355
+executed snippet estimated_duration=4.0, duration=0.00148701667786
+Script duration 798.0
+Run total estimated duration= 799.000
+run duration: 0:13:19
+doing event level: 2
+16:13:18 -- Setting default integration. t=1.048576
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+----------------- start -----------------
+**************** Experiment Type: Ar/Ar, Ar/Ar
+close session 4739341488
+$$$$$ Clearing conditionals
+adding conditionals 
+Add queue conditionals
+adding queue conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+add default conditionals
+adding default conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Start automated run a-01-F-1830
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+%%%%%%%%%%%%%%%%%% setting automated run a-01-F-1830
+No value "sensitivity_multiplier" in metadata
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+============================= Pre Extraction Check =============================
+loading queue conditionals pre_run_terminations
+queue conditionals path /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading system conditionals pre_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+16:13:19 -- ******* Pre Extraction Check *******
+Get a measurement from the spectrometer
+Pre Extraction Termination data. keys=L2(CDD),H2,H1,AX,L1,L2, signals=0.03051,0.43268,-0.03263,-0.03793,2.17967,0.28678
+16:13:19 -- testing system defined conditionals
+Checking default pre extraction terminations n=2
+testing L2_CDD_
+evaluate ot="L2(CDD).inactive" t="L2_CDD_", ctx="{'L2_CDD_': False}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:13:19 -- ******* Pre Extraction Check Passed *******
+=================================================================================
+16:13:19 -- stopping status monitor
+stop 4814140432
+Status monitor stopped
+16:13:20 -- starting status monitor
+start 4814140432
+StatusMonitor period=1. Frequencies(state=1, checksum=3, lock=5, owner=5)
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+start extraction
+do extraction
+Analysis started at 16:13:22.152877
+Extraction Started felix_air_x2.py
+16:13:22 -- ******* Extraction Started felix_air_x2.py *******
+state changed from not run to extraction
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.RemotePyScriptRunner object at 0x12063d7d0>
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=8.60691070557e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000185012817383
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000109910964966
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000154972076416
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=8.10623168945e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.10758972168e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000128030776978
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000111103057861
+executed snippet estimated_duration=174.0, duration=0.0107190608978
+Air Pipette x2
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=6.31809234619e-05
+Waiting for minibone access
+wait ('JanMiniboneFlag', 0) {}
+waiting for JanMiniboneFlag = 0
+Read JanMiniboneFlag ===>> 0
+finished waiting
+Minibone released
+wait ('MinibonePumpTimeFlag', 0) {}
+waiting for MinibonePumpTimeFlag = 0
+Read MinibonePumpTimeFlag ===>> 0
+finished waiting
+acquire ('FelixMiniboneFlag',) {'clear': True}
+acquire FelixMiniboneFlag
+Set FelixMiniboneFlag 1 ===>> OK
+FelixMiniboneFlag acquired
+set extraction state False (0.75, 'red', 1.5)
+minibone acquired
+executed snippet estimated_duration=0, duration=0.0178768634796
+WaitForMiniboneAccess.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.00018310546875
+Prepare for Air Shot
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+update switch state H False args=() kw={} ncanvase=3
+16:13:22 -- CLOSE  VALVE-H (Felix Inlet)
+-------------------------- close None (Felix Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Felix Ion Pump'}
+open name=--- desc=Felix Ion Pump
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open V ===>> OK
+GetIndicatorState V ===>> OK
+change switch state (True, True)
+update switch state V True args=() kw={} ncanvase=3
+16:13:22 -- OPEN   VALVE-V (Felix Ion Pump)
+-------------------------- open None (Felix Ion Pump) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Microbone to Minibone'}
+close name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close L ===>> OK
+GetIndicatorState L ===>> False
+change switch state (True, True)
+update switch state L False args=() kw={} ncanvase=3
+16:13:23 -- CLOSE  VALVE-L (Microbone to Minibone)
+-------------------------- close None (Microbone to Minibone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Quad Inlet'}
+close name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Q ===>> OK
+GetIndicatorState Q ===>> False
+change switch state (True, True)
+update switch state Q False args=() kw={} ncanvase=3
+16:13:23 -- CLOSE  VALVE-Q (Quad Inlet)
+-------------------------- close None (Quad Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open C ===>> OK
+Get Handler timed out. timeout=3. comms simulation=False
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+update switch state C True args=() kw={} ncanvase=3
+16:13:24 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+Get Handler timed out. timeout=0.25. comms simulation=False
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+update switch state E True args=() kw={} ncanvase=3
+16:13:24 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+Get Handler timed out. timeout=0.25. comms simulation=False
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open I ===>> OK
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+update switch state I True args=() kw={} ncanvase=3
+16:13:25 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=129.138.12.137
+check software interlocks N
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open N ===>> OK
+GetIndicatorState N ===>> OK
+change switch state (True, True)
+update switch state N True args=() kw={} ncanvase=3
+16:13:25 -- OPEN   VALVE-N (Bone to Getter GP-50)
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Bone to CO2 Laser'}
+close name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close D ===>> OK
+GetIndicatorState D ===>> False
+change switch state (True, True)
+update switch state D False args=() kw={} ncanvase=3
+16:13:26 -- CLOSE  VALVE-D (Bone to CO2 Laser)
+-------------------------- close None (Bone to CO2 Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Bone to Diode Laser'}
+close name=--- desc=Bone to Diode Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close B ===>> OK
+GetIndicatorState B ===>> False
+change switch state (True, True)
+update switch state B False args=() kw={} ncanvase=3
+16:13:26 -- CLOSE  VALVE-B (Bone to Diode Laser)
+-------------------------- close None (Bone to Diode Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=4.96331596375
+PrepareForAirShot.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.00016188621521
+Evacuate Pipette 2
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open P ===>> OK
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+update switch state P True args=() kw={} ncanvase=3
+16:13:27 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=3
+16:13:27 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+Get Handler timed out. timeout=3. comms simulation=False
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=3
+16:13:29 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Join finished
+block finished. duration 15.0289051533
+executed snippet estimated_duration=48.0, duration=17.2273528576
+EvacPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000146865844727
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=3
+16:13:44 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+Get Handler timed out. timeout=3. comms simulation=False
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+update switch state Z True args=() kw={} ncanvase=3
+16:13:45 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+Get Handler timed out. timeout=0.25. comms simulation=False
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Join finished
+block finished. duration 15.0466768742
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=3
+16:14:01 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2361180782
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=0.000128984451294
+Prepare for air expansion
+close () {'description': 'Bone to Turbo'}
+close name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close C ===>> OK
+GetIndicatorState C ===>> False
+change switch state (True, True)
+update switch state C False args=() kw={} ncanvase=3
+16:14:02 -- CLOSE  VALVE-C (Bone to Turbo)
+-------------------------- close None (Bone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Get Handler timed out. timeout=3. comms simulation=False
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+update switch state E True args=() kw={} ncanvase=3
+16:14:04 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+Get Handler timed out. timeout=0.25. comms simulation=False
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open I ===>> OK
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+update switch state I True args=() kw={} ncanvase=3
+16:14:04 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=3.0, duration=2.54658603668
+PrepareForAirShotExpansion.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000144004821777
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=3
+16:14:05 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Get Handler timed out. timeout=3. comms simulation=False
+Join finished
+block finished. duration 2.0417611599
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Get Handler timed out. timeout=0.25. comms simulation=False
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 4516
+saved current shot count 4516
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=3
+16:14:07 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+Get Handler timed out. timeout=0.25. comms simulation=False
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Join finished
+block finished. duration 15.0412371159
+executed snippet estimated_duration=51.0, duration=17.9979248047
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+set states for children of Y. state=False
+handle state [('Y', False)]
+update switch state Y False args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=3
+16:14:23 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 2
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000177145004272
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=3
+16:14:24 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+update switch state Z True args=() kw={} ncanvase=3
+16:14:26 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Join finished
+block finished. duration 15.0404069424
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+set states for children of Z. state=False
+handle state [('Z', False)]
+update switch state Z False args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=3
+16:14:41 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.223154068
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000125885009766
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=3
+16:14:43 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Join finished
+block finished. duration 2.01731514931
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 4517
+saved current shot count 4517
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=3
+16:14:45 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Join finished
+block finished. duration 15.0499269962
+executed snippet estimated_duration=51.0, duration=17.9495828152
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=3
+16:15:00 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+executed snippet estimated_duration=176.0, duration=100.060281992
+felix_air_x2.py completed successfully
+get achieved output
+Requested Output= 0.000
+Achieved Output=  0.000
+get response blob
+get output blob
+active pid =
+persistence save...
+persistence save - db
+AutomatedRunPersister post_extraction_save deprecated
+persistence save - dvc
+no extraction position for 
+Extraction Finished
+16:15:02 -- ******* Extraction Finished *******
+no overlap. not waiting for min ms pumptime
+16:15:02 -- Sending spectrometer configuration
+======== Sending configuration ========
+SetZFocus 2.9 ===>> OK
+SetHV 9000.0 ===>> OK
+SetZSymmetry 5.84 ===>> OK
+SetExtractionLens 64.55 ===>> OK
+SetIonRepeller -6.3 ===>> OK
+SetElectronEnergy 137.23 ===>> OK
+SetYSymmetry 41.05 ===>> OK
+send trap current 200.0
+GetParameter Trap Current Readback ===>> 198.818348287859
+SetParameter Trap Current Set,200.0 ===>> OK
+updating mftable name argon
+Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon.csv
+============ MFtable ===========
+Isotope  H2     H1     AX     L1     L2     L2(CDD)
+Ar40     3.4947 3.5659 3.6401 3.7171 3.8129 3.7995
+Ar39     3.4256 3.4960 3.5688 3.6470 3.7381 3.7243
+Ar36     3.2156 3.2818 3.3502 3.4219 3.5187 3.4960
+================================
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+======== Configuration Finished ========
+GetYSymmetry ===>> 41.05
+GetZSymmetry ===>> 5.84
+GetParameter Trap Current Readback ===>> 198.035158395898
+GetHighVoltage ===>> 9000
+start measurement
+do measurement
+L#=a-01-F analysis type=air
+Measurement Started felix_analysis400_120.py
+16:15:02 -- ******* Measurement Started felix_analysis400_120.py *******
+state changed from extraction to measurement
+setting spec, defl, and gains
+GetExtractionLens ===>> 64.55
+GetYSymmetry ===>> 41.05
+GetZSymmetry ===>> 5.84
+GetZFocus ===>> 2.9
+GetDeflection H2 (CDD) ===>> 3250
+GetDeflection H1 (CDD) ===>> 3250
+GetDeflection AX (CDD) ===>> 3250
+GetDeflection L1 (CDD) ===>> 3250
+GetDeflection L2 (CDD) ===>> 0
+GetGain H2 ===>> 0.9809305
+GetGain H1 ===>> 0.96484
+GetGain AX ===>> 0.96253
+GetGain L1 ===>> 0.970094835296087
+GetGain L2 ===>> 0.967359864778375
+GetGain H2(CDD) ===>> 0
+GetGain H1(CDD) ===>> 0
+GetGain AX(CDD) ===>> 0
+GetGain L1(CDD) ===>> 0
+GetGain L2(CDD) ===>> 0
+pre measurement save
+New frame /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+testing...
+no interpolation path defined
+executed snippet estimated_duration=655.442112, duration=0.000220060348511
+unknown measurement script
+activate_detectors ('H2', 'H1', 'AX', 'L1', 'L2(CDD)') {}
+activate detectors
+*************** Set Analysis View Ar/Ar
+create graphs
+clearing graphs
+clear isotope group
+setting isotope det=H2, iso=Ar40
+setting isotope det=H1, iso=Ar39
+setting isotope det=AX, iso=Ar38
+setting isotope det=L1, iso=Ar37
+setting isotope det=L2(CDD), iso=Ar36
+setting previous blanks
+ - setting Ar40 blank 0.428+/-0.019
+ - setting Ar36 blank 0.00093+/-0.00015
+ - setting Ar37 blank -0.007+/-0.012
+ - setting Ar38 blank 0.031+/-0.012
+ - setting Ar39 blank 0.014+/-0.023
+load analysis view
+position_magnet ('Ar40',) {'detector': 'H2'}
+detector Detector(H2)
+POSITION Ar40 H2
+setting detector H2 to Ar40 (39.9624)
+setting detector H1 to Ar39 (38.8624)
+setting detector AX to Ar38 (37.9624)
+setting detector L1 to Ar37 (36.9624)
+setting detector L2 to Ar36 (35.8624)
+setting detector H2(CDD) to Ar40 (39.8624)
+setting detector H1(CDD) to Ar39 (38.8624)
+setting detector AX(CDD) to Ar38 (37.8624)
+setting detector L1(CDD) to Ar37 (36.8624)
+setting detector L2(CDD) to Ar36 (35.9624)
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [ -2.38925034e-04   8.80081338e-02   3.59215459e-01]
+H2 map mass to dac 39.9624 >> 3.49467
+GetHighVoltage ===>> 9000
+positioning Ar40 (3.49467) on H2
+setting magnet DAC
+current  : 3.494665
+requested: 3.494670
+Delta Dac: 0.000005
+Checking detector protection. dv=0.00000
+SetMagnetDAC 3.49467 ===>> OK
+Magnet settling time: 0.500
+set_dac. change=True
+update labels <pychron.experiment.plot_panel.PlotPanel object at 0x11b67a4d0>
+update labels "<pychron.graph.stacked_regression_graph.StackedRegressionGraph object at 0x11c12db30>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+update labels "<pychron.graph.stacked_graph.StackedGraph object at 0x11c2c3530>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+equilibrate () {'delay': 3, 'inlet': 'H', 'outlet': 'V', 'eqtime': 30.0}
+Equilibration Started
+16:15:03 -- ******* Equilibration Started *******
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close V ===>> OK
+GetIndicatorState V ===>> False
+change switch state (True, True)
+update switch state V False args=() kw={} ncanvase=3
+16:15:03 -- CLOSE  VALVE-V (Felix Ion Pump)
+waiting 3s before opening inlet value ('H',)
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open H ===>> OK
+GetIndicatorState H ===>> OK
+change switch state (True, True)
+update switch state H True args=() kw={} ncanvase=3
+16:15:07 -- OPEN   VALVE-H (Felix Inlet)
+set_time_zero () {}
+equilibrating for 30.0sec
+sniff (30.0,) {}
+py_sniff
+build tables- sniff [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /sniff/Ar40 (Group) u'' table H2
+add group /sniff/Ar39 (Group) u'' table H1
+add group /sniff/Ar38 (Group) u'' table AX
+add group /sniff/Ar37 (Group) u'' table L1
+add group /sniff/Ar36 (Group) u'' table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+measuring sniff. ncounts=30.0
+"sniff" increment series count="1" fit count="0" regressing="False"
+starting measurement
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:15:32 -- collecting point 25
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Equilibration Finished
+16:15:37 -- ******* Equilibration Finished *******
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+update switch state H False args=() kw={} ncanvase=3
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:15:37 -- CLOSE  VALVE-H (Felix Inlet)
+Post Equilibration Started felix_pump_extraction_line.py
+16:15:37 -- ******* Post Equilibration Started felix_pump_extraction_line.py *******
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000288963317871
+executed snippet estimated_duration=4.0, duration=0.0020751953125
+Pump after analysis
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000322103500366
+Pump Bone
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+update switch state H False args=() kw={} ncanvase=3
+16:15:38 -- CLOSE  VALVE-H (Felix Inlet)
+-------------------------- close None (Felix Inlet) result=[(True, True)]
+Get Handler timed out. timeout=0.25. comms simulation=False
+action=close, ok=True, locked=[False]
+is_closed ('A',) {}
+is A () closed?
+is closed False
+close () {'description': 'CO2 Laser to Bone'}
+close name=--- desc=CO2 Laser to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks F
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-F(CO2 Laser to Bone) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Bone) result=[(True, False)]
+action=close, ok=True, locked=[True]
+sleep (1,) {}
+SLEEP 1.0
+waiting for write to finish
+measurement finished
+estimated time: 31.457 actual time: :31.613
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+set_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+set "Ar40" to "('Parabolic', 'SEM')"
+set "Ar36" to "('Parabolic', 'SEM')"
+set "Ar37" to "('linear', 'SEM')"
+set "Ar38" to "('linear', 'SEM')"
+set "Ar39" to "('Parabolic', 'SEM')"
+set_baseline_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+close () {'description': 'CO2 Laser to Roughing'}
+set "H2" to "('average', 'SEM')"
+close name=--- desc=CO2 Laser to Roughing
+set "L2(CDD)" to "('average', 'SEM')"
+set "L1" to "('average', 'SEM')"
+set "AX" to "('average', 'SEM')"
+checking ownership. requestor=129.138.12.137
+set "H1" to "('average', 'SEM')"
+check software interlocks G
+multicollect () {'integration_time': 1.048576, 'ncounts': 400}
+interlocks []
+build tables- signal [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+actuate state mode=None-script, software_lock=True
+VALVE-G(CO2 Laser to Roughing) software locked
+add group /signal/Ar40 (Group) u'' table H2
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Roughing) result=[(True, False)]
+action=close, ok=True, locked=[True]
+add group /signal/Ar39 (Group) u'' table H1
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+add group /signal/Ar38 (Group) u'' table AX
+checking ownership. requestor=129.138.12.137
+add group /signal/Ar37 (Group) u'' table L1
+check software interlocks C
+interlocks []
+add group /signal/Ar36 (Group) u'' table L2(CDD)
+actuate state mode=None-script, software_lock=False
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+doing actuation None-script open_channel True
+measuring signal. ncounts=400
+Open C ===>> OK
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+update switch state C True args=() kw={} ncanvase=3
+16:15:39 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+"signal" increment series count="2" fit count="1" regressing="True"
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=129.138.12.137
+check software interlocks N
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open N ===>> OK
+GetIndicatorState N ===>> OK
+change switch state (True, True)
+update switch state N True args=() kw={} ncanvase=3
+starting measurement
+16:15:39 -- OPEN   VALVE-N (Bone to Getter GP-50)
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Diode Laser'}
+open name=--- desc=Bone to Diode Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open B ===>> OK
+GetIndicatorState B ===>> OK
+change switch state (True, True)
+update switch state B True args=() kw={} ncanvase=3
+16:15:40 -- OPEN   VALVE-B (Bone to Diode Laser)
+-------------------------- open None (Bone to Diode Laser) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to CO2 Laser'}
+open name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open D ===>> OK
+GetIndicatorState D ===>> OK
+change switch state (True, True)
+update switch state D True args=() kw={} ncanvase=3
+16:15:40 -- OPEN   VALVE-D (Bone to CO2 Laser)
+-------------------------- open None (Bone to CO2 Laser) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_resource () {'name': 'CO2PumpTimeFlag', 'value': 30}
+Set CO2PumpTimeFlag 30 ===>> OK
+release ('FelixCO2Flag',) {}
+release FelixCO2Flag
+Set FelixCO2Flag 0 ===>> OK
+executed snippet estimated_duration=6.0, duration=4.27695202827
+PumpBone.py completed successfully
+gosub finished
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=4.50611114502e-05
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+Pump minibone
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+update switch state E True args=() kw={} ncanvase=3
+16:15:42 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open P ===>> OK
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+update switch state P True args=() kw={} ncanvase=3
+16:15:42 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Quad Inlet'}
+open name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Q ===>> OK
+set states for children of Q. state=True
+handle state [('Q', True)]
+update switch state Q True args=() kw={'refresh': False} ncanvase=3
+GetIndicatorState Q ===>> OK
+change switch state (True, True)
+update switch state Q True args=() kw={} ncanvase=3
+refresh_canvas_needed fired
+16:15:43 -- OPEN   VALVE-Q (Quad Inlet)
+-------------------------- open None (Quad Inlet) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Minibone to Bone'}
+close name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close I ===>> OK
+GetIndicatorState I ===>> False
+change switch state (True, True)
+update switch state I False args=() kw={} ncanvase=3
+16:15:44 -- CLOSE  VALVE-I (Minibone to Bone)
+-------------------------- close None (Minibone to Bone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+set_resource () {'name': 'MinibonePumpTimeFlag', 'value': 30}
+Set MinibonePumpTimeFlag 30 ===>> OK
+release ('FelixMiniboneFlag',) {}
+release FelixMiniboneFlag
+Set FelixMiniboneFlag 0 ===>> OK
+executed snippet estimated_duration=0, duration=2.11695098877
+PumpMinibone.py completed successfully
+gosub finished
+executed snippet estimated_duration=4.0, duration=6.44256305695
+felix_pump_extraction_line.py completed successfully
+Post Equilibration Finished
+16:15:44 -- ******* Post Equilibration Finished *******
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:16:05 -- collecting point 25
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:16:31 -- collecting point 50
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set states for children of O. state=True
+handle state [('O', True)]
+update switch state O True args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:16:57 -- collecting point 75
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:17:24 -- collecting point 100
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:17:50 -- collecting point 125
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:18:16 -- collecting point 150
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set states for children of U. state=False
+handle state [('U', False)]
+update switch state U False args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:18:42 -- collecting point 175
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:19:09 -- collecting point 200
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set states for children of O. state=False
+handle state [('O', False)]
+update switch state O False args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=0.25. comms simulation=False
+set states for children of R. state=True
+handle state [('R', True)]
+update switch state R True args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:19:35 -- collecting point 225
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set states for children of R. state=False
+handle state [('R', False)]
+update switch state R False args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+set states for children of U. state=True
+handle state [('U', True)]
+update switch state U True args=() kw={'refresh': False} ncanvase=3
+refresh_canvas_needed fired
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:20:01 -- collecting point 250
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:20:28 -- collecting point 275
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+16:20:54 -- collecting point 300
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:21:20 -- collecting point 325
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+len selected runs 1
+cloning run c-02-F-00. set_labnumber=True, set_position=True
+labnumber changed old:ba-01-F, new:c-02-F
+load meta for c-02-F
+create new session 4739341488
+clear labnumber
+clear labnumber
+clear labnumber
+close session 4739341488
+name=Extraction, new=cocktail_x3, suppress=True
+calculating time of run c-02-F-00
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=624.242112, duration=0.000247955322266
+script duration name:analysis400_120 seconds:624.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.50339508057e-05
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.29289245605e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000134944915771
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000102043151855
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000128984451294
+Get Handler timed out. timeout=3. comms simulation=False
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=8.08238983154e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.9168548584e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000123977661133
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.60691070557e-05
+executed snippet estimated_duration=174.0, duration=0.00990796089172
+script duration name:air_x2 seconds:174.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000171899795532
+executed snippet estimated_duration=4.0, duration=0.00128412246704
+Script duration 798.0
+Run total estimated duration= 799.000
+analysis400_120 in script context. using previous estimated duration
+script duration name:analysis400_120 seconds:624.0
+pump_ms in script context. using previous estimated duration
+air_x2 in script context. using previous estimated duration
+script duration name:air_x2 seconds:174.0
+pump_extraction_line in script context. using previous estimated duration
+Script duration 798.0
+Run total estimated duration= 799.000
+script duration name:analysis400_120 seconds:624.0
+script duration name:air_x2 seconds:174.0
+Script duration 798.0
+Run total estimated duration= 799.000
+nruns=3 before=5.0, run_dur=2397.0, btw=120.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=624.242112, duration=0.000185012817383
+script duration name:analysis400_120 seconds:624.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.40802764893e-05
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=8.01086425781e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.0001380443573
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000104188919067
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000149965286255
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=0.000102996826172
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.29832458496e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000124931335449
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.70227813721e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000113010406494
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.89301300049e-05
+executed snippet estimated_duration=244.0, duration=0.0125222206116
+script duration name:cocktail_x3 seconds:244.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000191926956177
+executed snippet estimated_duration=4.0, duration=0.00128412246704
+Script duration 868.0
+Run total estimated duration= 869.000
+run duration: 869.0
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+SSSSSSSSSSSSSS set AR scroll to 0
+update runs
+executor executable False
+stats calculated
+get all runs n=60
+updating stats
+setting executable True
+create new session 4739341488
+Info for c-02-F=('REFERENCES', 'cocktail', 'Gas', 'Cocktail-02', 'A', 1)
+Info for a-01-F=('REFERENCES', 'air', 'Gas', 'NoIrradiation', 'A', 15)
+Info for ba-01-F=('REFERENCES', 'blank_air', 'Blank', 'NoIrradiation', 'A', 16)
+Info for ic-01-F=('REFERENCES', 'air', 'Gas', 'NoIrradiation', 'A', 19)
+Info for bc-02-F=('REFERENCES', 'blank_cocktail', 'Blank', 'NoIrradiation', 'A', 25)
+close session 4739341488
+info updated
+len selected runs 1
+cloning run c-02-F-00. set_labnumber=True, set_position=True
+calculating time of run c-02-F-00
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=624.242112, duration=0.000217914581299
+script duration name:analysis400_120 seconds:624.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.59876251221e-05
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.60283660889e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000137090682983
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.0001060962677
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000126123428345
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=7.91549682617e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.70227813721e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000123977661133
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.60691070557e-05
+executed snippet estimated_duration=174.0, duration=0.00921106338501
+script duration name:air_x2 seconds:174.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.00019097328186
+executed snippet estimated_duration=4.0, duration=0.00147104263306
+Script duration 798.0
+Run total estimated duration= 799.000
+nruns=1 before=5.0, run_dur=799.0, btw=0.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=624.242112, duration=0.00019907951355
+script duration name:analysis400_120 seconds:624.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.28881835938e-05
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.3882598877e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000159025192261
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000103950500488
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000124931335449
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=7.60555267334e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000122785568237
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000123977661133
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.89301300049e-05
+executed snippet estimated_duration=244.0, duration=0.0117421150208
+script duration name:cocktail_x3 seconds:244.0
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000191926956177
+executed snippet estimated_duration=4.0, duration=0.00127291679382
+Script duration 868.0
+Run total estimated duration= 869.000
+run duration: 869.0
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=624.242112, duration=0.000185966491699
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.38418579102e-05
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.10215759277e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000134944915771
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000123977661133
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000141859054565
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=8.9168548584e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.89437103271e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000140190124512
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000108957290649
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000125169754028
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000102043151855
+executed snippet estimated_duration=244.0, duration=0.0131568908691
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.00019097328186
+executed snippet estimated_duration=4.0, duration=0.00127506256104
+analysis400_120 in script context. using previous estimated duration
+pump_ms in script context. using previous estimated duration
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.60283660889e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000134944915771
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000125169754028
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000126123428345
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=7.70092010498e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000125169754028
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.70227813721e-05
+executed snippet estimated_duration=174.0, duration=0.00917291641235
+pump_extraction_line in script context. using previous estimated duration
+air_x2 in script context. using previous estimated duration
+cocktail_x3 in script context. using previous estimated duration
+loading script "felix_ic_peak_hop.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=135.88, duration=0.000451803207397
+ic_peak_hop in script context. using previous estimated duration
+check queue Airs_Cocktails
+saving experiment to /Users/obama/PychronDev/experiments/Airs_Cocktails.txt
+setting executable True
+queues saved
+Queue modified. Reset run generator
+16:21:46 -- collecting point 350
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+a-01-F-1830   air   NoIrradiation A:15 set to terminate after 40 counts
+16:21:54 -- user termination. measurement iteration executed 356/400 counts
+state changed from measurement to truncated
+waiting for write to finish
+measurement finished
+estimated time: 419.430 actual time: :374.299
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+baselines () {'settling_time': 15.0, 'detector': 'H2', 'mass': 39.862, 'ncounts': 120}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Baseline
+build tables- baseline [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group baseline table H2
+add group baseline table H1
+add group baseline table AX
+add group baseline table L1
+add group baseline table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+detector Detector(H2)
+POSITION 39.862 H2
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [ -2.38925034e-04   8.80081338e-02   3.59215459e-01]
+H2 map mass to dac 39.862 >> 3.48774881693
+GetHighVoltage ===>> 9000
+positioning 39.862 (3.48774881693) on H2
+setting magnet DAC
+current  : 3.494670
+requested: 3.487749
+Delta Dac: 0.006921
+Checking detector protection. dv=0.00692
+SetMagnetDAC 3.48774881693 ===>> OK
+Magnet settling time: 0.500
+set_dac. change=True
+Delaying 15.0s for detectors to settle
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Join finished
+measuring baseline. ncounts=120
+"baseline" increment series count="2" fit count="1" regressing="True"
+Get Handler timed out. timeout=3. comms simulation=False
+starting measurement
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:22:35 -- collecting point 25
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+a-01-F-1830   air   NoIrradiation A:15 set to terminate after 12 counts
+16:23:01 -- user termination. measurement iteration executed 49/120 counts
+waiting for write to finish
+measurement finished
+estimated time: 125.829 actual time: :51.573
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+activate_detectors ('H1', 'L2(CDD)') {'peak_center': True}
+peak_center () {'detector': 'H2', 'integration_time': 1.048576, 'isotope': 'Ar40'}
+peak center: mean=551.312809707 threshold=100.0
+peak center started
+setup peak center. detector=['H2', 'H1', 'L2(CDD)'], isotope=Ar40
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x11bea7e30>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x11cf0ea10>]
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x11bea7e30>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x11cf0ea10>]
+setting integration time = 0.524288
+SetIntegrationTime 0.524288 ===>> OK
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [ -2.38925034e-04   8.80081338e-02   3.59215459e-01]
+H2 map mass to dac 39.9624 >> 3.49467
+GetHighVoltage ===>> 9000
+do peak center. <pychron.spectrometer.jobs.peak_center.PeakCenter object at 0x11df369b0>
+doing pc
+starting peak center. center dac= 3.49467 step_width=5e-05
+width = 5e-05
+get scan parameters. half-width=0.002,window=0.002, i=0, scalar=1
+Scan parameters center=3.49467 width=0.00400 (3.49267 - 3.49667)
+Moving to starting dac 3.49267
+setting magnet DAC
+current  : 3.487749
+requested: 3.492670
+Delta Dac: 0.004921
+Checking detector protection. dv=0.00492
+SetMagnetDAC 3.49267 ===>> OK
+Magnet settling time: 0.500
+set_dac. change=True
+Wait until signal near baseline. tol= 0.141140786417. timeout= 10
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Peak center failed to move to a baseline position
+_do_sweep sm= 3.49267, em= 3.49667, stm= 5e-05
+calculated step values: start=3.49267, end=3.49667, width=5e-05, nsteps=81.0
+setting magnet DAC
+current  : 3.492670
+requested: 3.492670
+Delta Dac: 0.000000
+Checking detector protection. dv=0.00000
+set_dac. change=False
+setting magnet DAC
+current  : 3.492670
+requested: 3.492721
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.492721
+requested: 3.492771
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.492771
+requested: 3.492822
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.492822
+requested: 3.492873
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.492873
+requested: 3.492923
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.492923
+requested: 3.492974
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.492974
+requested: 3.493024
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493024
+requested: 3.493075
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493075
+requested: 3.493126
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493126
+requested: 3.493176
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493176
+requested: 3.493227
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493227
+requested: 3.493278
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493278
+requested: 3.493328
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493328
+requested: 3.493379
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493379
+requested: 3.493429
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493429
+requested: 3.493480
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493480
+requested: 3.493531
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493531
+requested: 3.493581
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493581
+requested: 3.493632
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+Get Handler timed out. timeout=0.25. comms simulation=False
+setting magnet DAC
+current  : 3.493632
+requested: 3.493683
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493683
+requested: 3.493733
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493733
+requested: 3.493784
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493784
+requested: 3.493835
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Get Handler timed out. timeout=0.25. comms simulation=False
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493835
+requested: 3.493885
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493885
+requested: 3.493936
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.493936
+requested: 3.493986
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.493986
+requested: 3.494037
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494037
+requested: 3.494088
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494088
+requested: 3.494138
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494138
+requested: 3.494189
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494189
+requested: 3.494240
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494240
+requested: 3.494290
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494290
+requested: 3.494341
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494341
+requested: 3.494392
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494392
+requested: 3.494442
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494442
+requested: 3.494493
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494493
+requested: 3.494543
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494543
+requested: 3.494594
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494594
+requested: 3.494645
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494645
+requested: 3.494695
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494695
+requested: 3.494746
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494746
+requested: 3.494797
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494797
+requested: 3.494847
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Get Handler timed out. timeout=0.25. comms simulation=False
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494847
+requested: 3.494898
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.494898
+requested: 3.494948
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494948
+requested: 3.494999
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.494999
+requested: 3.495050
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495050
+requested: 3.495100
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495100
+requested: 3.495151
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495151
+requested: 3.495202
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495202
+requested: 3.495252
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495252
+requested: 3.495303
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495303
+requested: 3.495354
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495354
+requested: 3.495404
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495404
+requested: 3.495455
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495455
+requested: 3.495505
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495505
+requested: 3.495556
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495556
+requested: 3.495607
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495607
+requested: 3.495657
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495657
+requested: 3.495708
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495708
+requested: 3.495759
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495759
+requested: 3.495809
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495809
+requested: 3.495860
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495860
+requested: 3.495911
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.495911
+requested: 3.495961
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.495961
+requested: 3.496012
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.496012
+requested: 3.496062
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.496062
+requested: 3.496113
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.496113
+requested: 3.496164
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.496164
+requested: 3.496214
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.496214
+requested: 3.496265
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.496265
+requested: 3.496316
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.496316
+requested: 3.496366
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.496366
+requested: 3.496417
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.496417
+requested: 3.496467
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.496467
+requested: 3.496518
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.496518
+requested: 3.496569
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+set_dac. change=True
+setting magnet DAC
+current  : 3.496569
+requested: 3.496619
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+setting magnet DAC
+current  : 3.496619
+requested: 3.496670
+Delta Dac: 0.000051
+Checking detector protection. dv=0.00005
+Magnet settling time: 1.049
+Get Handler timed out. timeout=0.25. comms simulation=False
+set_dac. change=True
+result of _do_sweep=True
+result of _calculate_peak_center=([3.4935637875751508, 3.4947060721442886, 3.4958483567134264], [409.85548886390018, 553.50978883122639, 408.10425814672209], 3.4949465531062125, 553.50978883122639)
+Failed to find a valid peak. No peak greater than 1.0. max = 0.602498926132
+new center pos Detector(H2) (Ar40) @ 3.49470607214
+GetHighVoltage ===>> 9000
+dac uncorrected for HV and deflection 3.49470607214
+update mftable H2 Ar40 3.49470607214 message=automated run peakcenter
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+dump mftable to /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon.csv
+add to repo msg=modified - automated run peakcenter
+sweep finished
+locally archiving mftable
+setting magnet DAC
+current  : 3.496670
+requested: 3.494706
+Delta Dac: 0.001964
+Checking detector protection. dv=0.00196
+SetMagnetDAC 3.49470607214 ===>> OK
+Magnet settling time: 0.500
+a-01-F-1830   air   NoIrradiation A:15 set to terminate after 12 counts
+set_dac. change=True
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+Failed to find a valid peak. No peak greater than 1.0. max = 0.602498926132
+flush and close file /Users/obama/PychronDev/data/isotopes/da/a9b230-56fc-4869-83da-da31735bdf20.h5
+finished measure script
+executed snippet estimated_duration=655.442112, duration=577.940329075
+felix_analysis400_120.py completed successfully
+Measurement Finished
+16:24:40 -- ******* Measurement Finished *******
+Post Measurement Started felix_pump_ms.py
+16:24:40 -- ******* Post Measurement Started felix_pump_ms.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.60012054443e-05
+Pumping spectrometer
+open () {'name': 'V'}
+open name=V desc=---
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open V ===>> OK
+GetIndicatorState V ===>> OK
+change switch state (True, True)
+update switch state V True args=() kw={} ncanvase=3
+16:24:40 -- OPEN   VALVE-V (Felix Ion Pump)
+-------------------------- open V () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=0.378346920013
+felix_pump_ms.py completed successfully
+setting _ms_pumptime
+Post Measurement Finished
+16:24:40 -- ******* Post Measurement Finished *******
+$$$$$$$$$$$$$$$$$$$$ state at run end truncated
+post measurement save measured=True aborted=False
+Set filtering
+setting fod for Ar40= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H2= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar36= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L2(CDD)= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar37= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar38= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for AX= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar39= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+persistence save...
+persistence save - db
+post measurement save
+4962397360 connecting to database sqlite:////Users/obama/PychronDev/.appdata/local_lab.db
+connected to db sqlite:////Users/obama/PychronDev/.appdata/local_lab.db
+create new session 4962397360
+close session 4962397360
+No database instance. Not saving post measurement to isotopedb database
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+massspec enabled True
+create new session 4815674064
+MassSpec Database Version: 16.0
+close session 4815674064
+saving post measurement to secondary database
+saving to massspec database 129.138.12.160/massspecdata
+setting labnumber to a-01-F
+setting aliquot to 1830
+setting step to 
+setting uuid to daa9b230-56fc-4869-83da-da31735bdf20
+setting irradpos to a-01-F
+setting extract_device to NMGRL Furnace
+setting tray to 
+setting position to 
+setting power_requested to 0.0
+setting extract_value to 0.0
+setting duration to 0.0
+setting duration_at_request to 0.0
+setting first_stage_delay to 0.0
+setting cleanup to 0.0
+setting comment to new source trap 200 9 kv
+setting irradiation to NoIrradiation
+setting level to A
+setting irradiation_level to A
+setting sample to air
+setting material to Gas
+setting project to REFERENCES
+setting mass_spectrometer to Felix
+no attribute chron_dosages
+no attribute production_ratios
+no attribute interference_corrections
+no attribute production_name
+no attribute j
+adding new session for Felix
+Reference Isotope=Ar40
+Reference Detector=H2
+%%%%%%%%%%%%%%%%%%%% Comment: new source trap 200 9 kv %%%%%%%%%%%%%%%%%%%
+adding isotope Ar40 H2
+add baseline dbdet= Ar40. original det= H2
+get baseline data Ar40 H2
+Get data baseline <pychron.processing.isotope.Baseline object at 0x11b5ca890> len t=49
+baseline Ar40. v=0.310682148987, e=0.0138268853901
+get signal data Ar40 H2
+Get data signal Ar40 537.31+/-0.05 len t=356
+adding isotope Ar39 H1
+Get Handler timed out. timeout=3. comms simulation=False
+add baseline dbdet= Ar39. original det= H1
+get baseline data Ar39 H1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x11b5caa10> len t=49
+baseline Ar39. v=-0.0583223264029, e=0.0206549325401
+get signal data Ar39 H1
+Get data signal Ar39 0.191+/-0.026 len t=356
+adding isotope Ar38 AX
+add baseline dbdet= Ar38. original det= AX
+get baseline data Ar38 AX
+Get data baseline <pychron.processing.isotope.Baseline object at 0x11b5cabd0> len t=49
+baseline Ar38. v=-0.0515586542417, e=0.0131350763021
+get signal data Ar38 AX
+Get data signal Ar38 0.333+/-0.013 len t=356
+adding isotope Ar37 L1
+add baseline dbdet= Ar37. original det= L1
+get baseline data Ar37 L1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x11b5cad90> len t=49
+baseline Ar37. v=2.10812314154, e=0.0136632634813
+get signal data Ar37 L1
+Get data signal Ar37 0.026+/-0.011 len t=356
+adding isotope Ar36 L2(CDD)
+Get Handler timed out. timeout=0.25. comms simulation=False
+add baseline dbdet= Ar36. original det= L2(CDD)
+get baseline data Ar36 L2(CDD)
+Get data baseline <pychron.processing.isotope.Baseline object at 0x11b5caf50> len t=49
+baseline Ar36. v=3.60352433493e-05, e=9.64013353359e-06
+get signal data Ar36 L2(CDD)
+Get data signal Ar36 1.6153+/-0.0030 len t=356
+a-01-F-1830 added analysis time 0.516422986984s
+analysis added to mass spec database
+mass spec save time= 0.529
+persistence save - dvc
+================= post measurement started
+create new session 4708910192
+close session 4708910192
+add to repo msg=modified - felix_analysis400_120.py
+add to repo msg=modified - felix_air_x2.py
+Get Handler timed out. timeout=0.25. comms simulation=False
+len selected runs 1
+cloning run c-02-F-00. set_labnumber=True, set_position=True
+add to repo msg=modified - felix_pump_ms.py
+add to repo msg=modified - felix_pump_extraction_line.py
+---------------- Experiment Queue saving disabled
+DVC saving peakcenter
+Failed to find a valid peak. No peak greater than 1.0. max = 0.602498926132
+Smart pull ahead: 0 behind: 0
+Up-to-date with origin
+add to repo msg=modified - dfef50767113dbbe7ed00646624da7b200f779c3.json
+add to repo msg=modified - -F-1830.json
+add to repo msg=modified - -F-1830.dat.json
+add to repo msg=modified - -F-1830.blan.json
+add to repo msg=modified - -F-1830.inte.json
+add to repo msg=modified - -F-1830.icfa.json
+add to repo msg=modified - -F-1830.base.json
+Get Handler timed out. timeout=3. comms simulation=False
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/Felix_air161/a-01/tags/-F-1830.tags.json
+add to repo msg=modified - -F-1830.peak.json
+Get Handler timed out. timeout=0.25. comms simulation=False
+add to repo msg=modified - -F-1830.extr.json
+Get Handler timed out. timeout=0.25. comms simulation=False
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/Felix_air161/a-01/monitor/-F-1830.moni.json
+commit message=<COLLECTION>
+add to repo msg=modified - -F-1830.inte.json
+add to repo msg=modified - -F-1830.base.json
+commit message=<ISOEVO> default collection fits
+add to repo msg=modified - -F-1830.blan.json
+Get Handler timed out. timeout=3. comms simulation=False
+commit message=<BLANKS> preceding 
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+add to repo msg=modified - -F-1830.icfa.json
+commit message=<ICFactor> default
+push repository <pychron.git_archive.repo_manager.GitRepoManager object at 0x11cb655f0>
+pushing to remote=origin, url=https://github.com
+Autosaving to /Users/obama/PychronDev/experiments/auto_save/Airs_Cocktails.bak
+Get Handler timed out. timeout=3. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+Get Handler timed out. timeout=0.25. comms simulation=False
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=624.242112, duration=0.000221014022827
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.60012054443e-05
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.88893890381e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000135898590088
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000103950500488
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000132083892822
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=7.70092010498e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000125885009766
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.70227813721e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000123977661133
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.70227813721e-05
+executed snippet estimated_duration=244.0, duration=0.011626958847
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000194787979126
+executed snippet estimated_duration=4.0, duration=0.00128388404846
+analysis400_120 in script context. using previous estimated duration
+pump_ms in script context. using previous estimated duration
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.69820404053e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000147104263306
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000116109848022
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000131845474243
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=8.01086425781e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.79628753662e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000123023986816
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.70227813721e-05
+executed snippet estimated_duration=174.0, duration=0.00955390930176
+pump_extraction_line in script context. using previous estimated duration
+air_x2 in script context. using previous estimated duration
+cocktail_x3 in script context. using previous estimated duration
+loading script "felix_ic_peak_hop.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=135.88, duration=0.00048303604126
+ic_peak_hop in script context. using previous estimated duration
+check queue Airs_Cocktails
+saving experiment to /Users/obama/PychronDev/experiments/Airs_Cocktails.txt
+setting executable True
+queues saved
+Queue modified. Reset run generator
+Smart pull ahead: 0 behind: 0
+Up-to-date with origin
+no changes to meta repo
+create new session 4708910192
+add association Felix_air161
+get identifier "a-01-F"
+setting analysis irradiation position=<pychron.dvc.dvc_orm.IrradiationPositionTbl object at 0x11b96c3d0>
+close session 4708910192
+================= post measurement finished
+16:24:55 -- ******* Post Run Check *******
+loading queue conditionals post_run_actions
+queue conditionals path /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading system conditionals post_run_actions
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+loading queue conditionals post_run_terminations
+queue conditionals path /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading system conditionals post_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Checking default post run terminations n=1
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+16:24:55 -- ******* Post Run Check Passed *******
+16:24:55 -- Automated run a-01-F-1830 truncated duration: 696.485 s
+----------------- finish -----------------
+----------------- stop -----------------
+retroactive repository identifiers disabled
+finish run. runs completed=1
+write rem/ex queues
+/Users/obama/PychronDev/experiments/rem/Airs_Cocktails.rem.txt
+/Users/obama/PychronDev/experiments/rem/Airs_Cocktails.ex.txt
+doing event level: 3
